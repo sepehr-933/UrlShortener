@@ -1,0 +1,252 @@
+.head {
+    display: grid;
+    grid-template-columns: 30% 65% 5%;
+    padding: 2% 10% 2% 10%;
+    grid-gap: 0;
+}
+.icon {
+    display: none;
+    text-align: right;
+}
+.middleSpan {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem 5rem;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.3);
+    position: fixed;
+    top: 4rem;
+    right: 1rem;
+    background-color: white;
+    height: 100vh;
+    z-index: 20;
+}
+.middleSpan>* {
+    margin-bottom: 1rem;
+}
+.middleSpan >p {
+    float: left;
+    padding: 0 10px 0 10px;
+    color: darkgrey;
+}
+.middleSpan>p:hover {
+    font-weight: bold;
+    color: black;
+    cursor: pointer;
+}
+.lastSpan {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    text-align: right;
+    color: darkgrey;
+}
+.lastSpan>p:hover {
+    font-weight: bold;
+}
+.blueButton {
+    background-color: hsl(180, 66%, 49%);
+    border-radius: 30%;
+    color: white;
+    padding: 15px;
+    border: none;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.blueButton:hover {
+    opacity: 0.6;
+}
+.content {
+    display: grid;
+    grid-template-columns: 45% 45%;
+    padding-left: 10%;
+}
+.div1 {
+    font-weight: bolder;
+    font-size: 40px;
+}
+.div1>p {
+    color: darkgrey;
+    font-weight: bold;
+    font-size: 20px;
+}
+.inputDiv {
+    display: grid;
+    grid-template-columns: 80% 10%;
+    grid-gap: 10%;
+    position: relative;
+    bottom: -50%;
+    background-color: hsl(257, 27%, 26%);
+    padding: 2% 7% 2% 7%;
+    grid-column: 1/3;
+    border-radius: 5px;
+}
+.inputDiv>input {
+    border-radius: 5px;
+    width: 100%;
+    padding: 15px;
+}
+.inputDiv>button {
+    background-color: hsl(180, 66%, 49%);
+    border-radius: 5px;
+    padding: 15px;
+    color: white;
+
+}
+.inputDiv>button:hover {
+    opacity: 0.6;
+}
+.content2 {
+    background-color:hsl(0, 0%, 92%) ;
+}
+.little {
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 7%;
+}
+.little>p {
+    color: darkgrey;
+    font-weight: bold;
+    font-size: 15px;
+}
+.tripleDivs {
+   display: grid;
+    grid-template-columns: repeat(3 , 1fr);
+    background-color: hsl(0, 0%, 92%);
+    margin: 10% 15% 0 15%;
+    grid-gap: 3%;
+    padding-bottom: 10%;
+}
+.tripleDivs>div>h2 {
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 10%;
+}
+.tripleDivs>div>p {
+    font-size: 15px;
+    color: darkgrey;
+    margin: 0;
+    margin-block-end: 0;
+    margin-block-start: 0;
+    display: block;
+}
+.tripleDivs>div {
+    background-color: white;
+    padding: 20px;
+    height: auto;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.Icons {
+    background-color: hsl(257, 27%, 26%);
+
+}
+.rounder{
+    background-color: hsl(257, 27%, 26%);
+    border-radius: 100%;
+    padding: 25px;
+    position: absolute;
+    top: 0;
+    right: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.margin {
+margin-top: 10%;
+    margin-bottom: 10%;
+    position: relative;
+}
+.margin2 {
+margin-top: 20%;
+    position: relative;
+}
+.margin3 {
+    margin-bottom: 20%;
+    position: relative;
+}
+.footer {
+    display: grid;
+    grid-template-columns: 100%;
+}
+.footer >div>span {
+    font-size: 45px;
+    font-weight: bolder;
+    color: white;
+}
+.footer>div {
+    text-align: center;
+}
+.footer>div>span>button {
+    margin-top: 20px;
+}
+.lastDiv {
+    display: grid;
+    grid-template-columns: 40% 10% 10% 10% 20%;
+    background-color:  black;
+    padding: 3%;
+    color: white;
+}
+.lastDiv>p {
+    font-weight: bold;
+    font-size: 35px;
+}
+.lastDiv>div>h3 {
+    font-weight: bold;
+}
+.lastDiv>div>p {
+    color: gainsboro;
+}
+.lastDiv>div>p:hover{
+    color:hsl(180, 66%, 49%) ;
+    cursor: pointer;
+}
+.lastDiv>div>img {
+    margin: 2%;
+}
+.lastDiv>div>img:hover {
+    width: 12%;
+    height: 12%;
+    cursor: pointer;
+}
+@media screen and (max-width: 600px) {
+    .head span:not(:first-child) {display: none;}
+    .head a.icon {
+        float: right;
+        display: block;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .head.responsive {position: relative;}
+    .head.responsive .icon {
+        position: absolute;
+        right: 5%;
+        top: 10%;
+    }
+    .head.responsive span {
+        float: none;
+        display: block;
+        text-align: left;
+    }
+
+
+}
+@media only screen and (max-width: 768px){
+    .head {
+        grid-template-columns: 60% 40%;
+    }
+    .content {
+        direction: rtl;
+        grid-template-columns: 100%;
+    }
+
+}
+
+.header__icon {
+   margin-top: -26.5%;
+}

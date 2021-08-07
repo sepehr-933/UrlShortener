@@ -1,0 +1,72 @@
+.pricingGrid {
+    display: grid;
+    grid-template-columns: 32.5% 35% 32.5%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin: 10%;
+}
+.pricingGrid>div{
+    text-align: center;
+}
+.pricingGrid>div>h2 {
+    color: white;
+    font-weight: bolder;
+    font-size: 50px;
+}
+.pricingGrid>div>h1{
+    font-weight: bolder;
+    font-size: 50px;
+}
+.pricingGrid>div>p {
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+    padding-bottom: 20px;
+}
+.pricingGrid>div>h3 {
+    font-size: 20px;
+    font-weight: bold;
+    padding-bottom: 20px;
+}
+.mainDiv {
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: hsl(180, 66%, 49%);
+    height: 110%;
+    position: relative;
+    top: -5%;
+    padding: 0 10% 0 10%;
+}
+.sideDivs {
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: #fafafa;
+    padding: 0 10% 8% 10%;
+}
+.lmButton {
+    width: 100%;
+    background-color: hsl(180, 66%, 49%);
+    border-radius: 6px;
+    color: #fafafa;
+    padding: 2%;
+    border:1px solid hsl(180, 66%, 49%);
+    font-size: 20px;
+}
+.mainDiv>button {
+    width: 100%;
+    background-color:#fafafa ;
+    border-radius: 6px;
+    color: hsl(180, 66%, 49%);
+    padding: 2%;
+    margin-top: 8%;
+    border:1px solid #fafafa ;
+    font-size: 25px;
+}
+.mainDiv>button:hover {
+    background-color: hsl(180, 66%, 49%);
+    color: #fafafa;
+}
+.lmButton:hover {
+    background-color: #fafafa;
+    color: hsl(180, 66%, 49%);
+}
+

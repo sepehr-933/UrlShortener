@@ -1,0 +1,83 @@
+.grid {
+    width: 20%;
+    position: absolute;
+    left: 40%;
+    top: 3%;
+}
+.header {
+    text-align: center;
+}
+.par {
+    color: darkgrey;
+    text-align: center;
+    padding: 10px;
+}
+.GridContainer {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 0px;
+    height: 40%;
+    position: absolute;
+    top: 25%;
+    width: 60%;
+    left: 20%;
+}
+
+
+
+.sideItems {
+border-radius: 8px;
+    background-color: white;
+    box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);;
+}
+.MainItem {
+    border-radius: 8px;
+    background-color: hsl(179, 62%, 43%);
+    height: 110%;
+    position: relative;
+    top: -5%;
+    color: white;
+}
+.head {
+    text-align: center;
+
+
+}
+.head2 {
+    text-align: center;
+    font-size: 50px;
+
+}
+.sideButton {
+    background-color: hsl(179, 62%, 43%) ;
+    width: 50%;
+    position: relative;
+    left: 25%;
+    bottom: 5%;
+    text-align: center;
+    border-radius: 5px;
+    border: 1px solid hsl(179, 62%, 43%);
+    font-size: medium;
+    color: white;
+    transition: color 1s;
+}
+.sideButton:hover {
+    background-color: white;
+    color: hsl(179, 62%, 43%);
+}
+.mainButton {
+    background-color: white ;
+    width: 50%;
+    position: relative;
+    left: 25%;
+    text-align: center;
+    border-radius: 5px;
+    border: 1px solid white;
+    font-size: medium;
+    color: hsl(179, 62%, 43%);
+    transition: color 1s;
+}
+.mainButton:hover {
+    background-color: hsl(179, 62%, 43%);
+    color: white;
+}

@@ -1,0 +1,51 @@
+.firstDiv {
+   width: 20%;
+    height: 40%;
+    position: absolute;
+    right: 40%;
+    top: 7%;
+    background-color: #f6f6f6;
+    box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);;
+    border-top: 3px solid greenyellow;
+    padding: 5px;
+}
+.secondDiv {
+    width: 20%;
+    height: 40%;
+    position: absolute;
+    right: 40%;
+    bottom: 7%;
+    background-color:  #f6f6f6;
+    box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);;
+    border-top: 3px solid darkturquoise;
+    padding: 5px;
+}
+.thirdDiv {
+    width: 20%;
+    height: 40%;
+    position: absolute;
+    left: 18%;
+    top: 30%;
+    background-color:  #f6f6f6;
+    box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);;
+    border-top: 3px solid blueviolet;
+    padding: 5px;
+}
+.fourthDiv{
+    width: 20%;
+    height: 40%;
+    position: absolute;
+    right: 18%;
+    top: 30%;
+    background-color:  #f6f6f6;
+    box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);;
+    border-top: 3px solid mediumvioletred;
+    padding: 5px;
+}
+.paragraph {
+    font-size: x-large;
+    color: darkblue;
+}
+.mother {
+    background-color: blue;
+}

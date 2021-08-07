@@ -1,0 +1,146 @@
+.header {
+    display: grid;
+    grid-template-columns: 55% 45%;
+    font-size: 20px;
+    font-weight: bolder;
+    padding-top: 1%;
+    padding-left: 10%;
+}
+
+.header > span {
+    text-align: right;
+    font-size: small;
+}
+.secondPart {
+    display: grid;
+    grid-template-columns: 30% 30%;
+    grid-gap: 20%;
+    background-color: hsl(256, 26%, 20%);
+    color: white;
+    padding: 4% 0 4% 10%;
+    margin-bottom: 20px;
+}
+.bigText {
+    font-size: 45px;
+    font-weight: bolder;
+}
+.image {
+    position: absolute;
+    top: 10px;
+    right: 3%;
+}
+.smallText {
+    font-weight: bold;
+    font-size: medium;
+}
+.button {
+    background-color: white;
+    border-radius: 3px;
+    border: 1px solid hsl(256, 26%, 20%);
+    transition: background-color 1s;
+    padding: 5px 15px ;
+    color: black;
+}
+.button:hover {
+    background-color: hsl(256, 26%, 20%);
+    border: 1px solid white;
+    color: white;
+}
+.different {
+    font-size: 60px;
+    font-weight: bolder;
+    padding: 7% 0 7% 10%;
+}
+.newDiv {
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    padding: 0 10% 0 10%;
+    grid-gap: 4%;
+}
+.describtion{
+   font-size: small;
+    color: darkgrey;
+    font-weight: bold ;
+}
+.Work {
+    display: grid;
+    grid-template-columns: auto auto;
+    background-color: hsl(256, 26%, 20%) ;
+    width: 80%;
+    margin: 10%;
+}
+.Work >p {
+    font-size: 40px;
+    font-weight: bolder;
+    color: white;
+    padding: 5% 2% 0 5%;
+}
+.workButton {
+    padding: 12px 25px 12px 25px;
+    font-size: 20px;
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 4px;
+    transition: background-color 1s;
+    position: relative;
+    right: 5%;
+    top:35% ;
+    vertical-align: center;
+}
+.workButton:hover {
+    background-color:hsl(256, 26%, 20%) ;
+    color: white;
+}
+.Footer {
+
+    background-color:hsl(0, 0%, 98%);
+    font-size: 20px;
+    font-weight: bolder;
+    padding: 5% 10% 5% 10%;
+}
+.lastGrid {
+    display: grid;
+    grid-template-columns: 75% 5% 5% 5% 5%;
+    grid-template-rows: 30%;
+    grid-gap: 1%;
+}
+.Footer >span {
+    text-align: right;
+}
+.distance {
+    margin: 10px;
+}
+.finalDiv {
+    display: grid;
+    grid-template-columns: 15% 15% 15% 15%;
+    grid-gap: 5%;
+
+}
+.aClass {
+    font-weight: bold;
+    font-size: smaller;
+    color: black;
+}
+.aClass:hover {
+    text-decoration-line: underline;
+    color: darkslategray;
+}
+.menu:visited {
+background-color: hsl(256, 26%, 20%);
+color: white;
+}
+.menu:hover {
+    font-weight: bold;
+    color: black;
+}
+@media only screen and (max-width: 768px){
+.header {grid-template-columns: 70% 20%; grid-gap: 10%}
+.secondPart {grid-template-columns: 100%; text-align: center ; padding: 0}
+.newDiv {grid-template-columns: 100%; text-align: center; padding: 10%}
+.Work {grid-template-columns: 100%; text-align: center}
+.image {position: relative;padding: 10%}
+.workButton {top: auto; right: auto ;margin: 5px}
+.lastGrid {grid-template-columns: 100%;text-align: center;padding: 10%}
+.finalDiv {grid-template-columns: 100%; text-align: center; padding: 10%}
+.different {padding: 30% 10% 0 10%;text-align: center}
+}
